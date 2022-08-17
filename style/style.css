@@ -1,0 +1,18 @@
+/* Hide Streamlit Branding */
+#MainMenu {
+  visibility:hidden;
+}
+header {
+  visibility:hidden;
+}
+footer{
+  visibility:visible;
+}
+footer:after{
+  content:"Copyright \00a9 2022: Kelompok Cosmos";
+  display:block;
+  position:relative;
+  color:rgb(255, 50, 13);
+  padding:5px;
+  top:3px;
+}
